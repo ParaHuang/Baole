@@ -1,4 +1,5 @@
-package day2;
+package day3;
+
 
 //OOP：object oriented programming
 //Encapsulation:封装，私有属性,公开方法
@@ -79,8 +80,20 @@ public class Human {
 
 //>14    record
 
-class Adult extends Human{}
-class Employee extends Adult{}
+class Adult extends Human{
+	@Override
+	public String toString() {
+		
+		return super.toString()+" this is an adult";
+	}
+}
+class Employee extends Adult{
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString()+" this is an Employee";
+	}
+}
 
 
 
