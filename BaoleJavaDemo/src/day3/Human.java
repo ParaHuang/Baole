@@ -76,6 +76,10 @@ public class Human {
 		return "Human [name=" + name + ", age=" + age + ", gender=" + gender + ", nationality=" + nationality + "]";
 	}
 	
+	class A{
+		
+	}
+	
 }	
 
 //>14    record

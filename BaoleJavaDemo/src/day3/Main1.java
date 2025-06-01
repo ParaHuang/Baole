@@ -27,6 +27,7 @@ public class Main1 {
 		int x = random.nextInt(1,5);	//origin ~ bound-1
 	
 		System.out.println(x);
+//		h2.new A();
 	}
 	
 	public static int gcd(int n,int m) {
